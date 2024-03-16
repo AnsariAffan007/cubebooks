@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
+}
+
+.navbar-brand img {
+    width: 20px;
+}
+
+/* @media (max-width: 768px) {
+    .navbar-brand img {
+        width: 3vw;
+    }
+} */
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card-body img {
+    /* width: 80%; */
+    height: 20vh;
+}
+
+.card p {
+    height: 15vh;
+}
+
+@media (min-width: 768px) {
+    .newsletter h3 {
+        margin: 0;
+    }
+
+    .newsletter .input-group {
+        width: 50%;
+    }
+
+    #whySpeedCubing {
+        height: 70vh;
+    }
+
+    #whySpeedCubing img {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 768px) {
+    #whySpeedCubing img {
+        height: 40vh;
+    }
+
+    .card p {
+        height: auto;
+    }
+}
+
+.carousel-item {
+    height: 70vh;
+}
+
+.carousel-item img {
+    height: 30vh;
+}
+
+.purple-btn {
+    background-color: #715db6;
+    border: none;
+    color: white;
+}
+
+#ytchannels img {
+    width: 50%;
+}
+
+.social-icons a {
+    margin: 0 1rem;
+    padding-left: 0;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .social-icons i {
+        font-size: 2rem;
+    }
+}
+
+a:has(.bi) {
+    color: black;
+    transition: 0.3s;
+}
+
+a:has(.bi):hover {
+    transform: translateY(-8px);
+}
+
+a:has(.bi-facebook):hover {
+    color: #4267B2;
+}
+
+a:has(.bi-youtube):hover {
+    color: #c4302b;
+}
+
+a:has(.bi-instagram):hover {
+    color: #d62976;
+}
+
+#copyright p {
+    margin-bottom: 0;
+}
